@@ -20,7 +20,8 @@ This repo includes
   open sumo and load any of its sumo.cfg file.
 
  ### maps
-  simulate carla, then cd under PythonApi/util in carla and run
+  simulate carla, then cd under PythonApi/util in carla (remember to copy the map in the same folder as config.py)
+  and run
   ```
   python3 config.py -x <filename>
   ```
