@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-05 12:30:03 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="cfg/intersection.net.xml"/>
+        <route-files value="cfg/intersection.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="my_output_file.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.01"/>
+    </time>
+
+    <report>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="51883"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="cfg/intersection.gui.xml"/>
+        <start value="true"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<tripinfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tripinfo_file.xsd">
+    <tripinfo id="v.0.0.0.0" depart="0.01" departLane="end1_junction_0" departPos="100.00" departSpeed="5.00" departDelay="0.00" arrival="54.46" arrivalLane="junction_end4_0" arrivalPos="486.40" arrivalSpeed="16.60" duration="54.45" routeLength="881.83" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.32" rerouteNo="0" devices="tripinfo_v.0.0.0.0" vType="vtypeauto" speedFactor="1.20" vaporized=""/>
+    <tripinfo id="v.0.0.7.0" depart="0.01" departLane="end3_junction_1" departPos="100.00" departSpeed="5.00" departDelay="0.00" arrival="55.55" arrivalLane="junction_end1_1" arrivalPos="486.40" arrivalSpeed="16.60" duration="55.54" routeLength="900.00" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.33" rerouteNo="0" devices="tripinfo_v.0.0.7.0" vType="vtypeauto" speedFactor="1.20" vaporized=""/>
+    <tripinfo id="v.1.0.3.0" depart="6.01" departLane="end2_junction_0" departPos="100.00" departSpeed="5.00" departDelay="0.00" arrival="60.46" arrivalLane="junction_end1_0" arrivalPos="486.40" arrivalSpeed="16.60" duration="54.45" routeLength="881.83" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.32" rerouteNo="0" devices="tripinfo_v.1.0.3.0" vType="vtypeauto" speedFactor="1.20" vaporized=""/>
+    <tripinfo id="v.1.0.8.0" depart="6.01" departLane="end3_junction_2" departPos="100.00" departSpeed="5.00" departDelay="0.00" arrival="61.39" arrivalLane="junction_end4_2" arrivalPos="486.40" arrivalSpeed="16.60" duration="55.38" routeLength="897.31" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.33" rerouteNo="0" devices="tripinfo_v.1.0.8.0" vType="vtypeauto" speedFactor="1.20" vaporized=""/>
+    <tripinfo id="v.1.0.11.0" depart="6.01" departLane="end4_junction_2" departPos="100.00" departSpeed="5.00" departDelay="0.00" arrival="61.48" arrivalLane="junction_end1_2" arrivalPos="486.40" arrivalSpeed="16.60" duration="55.47" routeLength="897.31" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.42" rerouteNo="0" devices="tripinfo_v.1.0.11.0" vType="vtypeauto" speedFactor="1.20" vaporized=""/>
+    <tripinfo id="v.1.0.4.0" depart="6.01" departLane="end2_junction_1" departPos="100.00" departSpeed="5.00" departDelay="0.00" arrival="61.55" arrivalLane="junction_end4_1" arrivalPos="486.40" arrivalSpeed="16.60" duration="55.54" routeLength="900.00" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.33" rerouteNo="0" devices="tripinfo_v.1.0.4.0" vType="vtypeauto" speedFactor="1.20" vaporized=""/>
+    <tripinfo id="v.1.0.10.0" depart="6.01" departLane="end4_junction_1" departPos="100.00" departSpeed="5.00" departDelay="0.00" arrival="61.63" arrivalLane="junction_end2_1" arrivalPos="486.40" arrivalSpeed="16.60" duration="55.62" routeLength="900.00" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.40" rerouteNo="0" devices="tripinfo_v.1.0.10.0" vType="vtypeauto" speedFactor="1.20" vaporized=""/>
+    <tripinfo id="v.1.0.1.0" depart="6.01" departLane="end1_junction_1" departPos="100.00" departSpeed="5.00" departDelay="0.00" arrival="61.65" arrivalLane="junction_end3_1" arrivalPos="486.40" arrivalSpeed="16.60" duration="55.64" routeLength="900.00" waitingTime="0.00" waitingCount="0" stopTime="0.00" timeLoss="1.43" rerouteNo="0" devices="tripinfo_v.1.0.1.0" vType="vtypeauto" speedFactor="1.20" vaporized=""/>
+</tripinfos>
