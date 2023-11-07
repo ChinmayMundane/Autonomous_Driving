@@ -4,8 +4,8 @@
 This repo includes 
 - Test scripts to run in carla
 - basic tutorials named t1, t2, ...,simple lane etc.
-- customly built maps for carla and sumo in osm and xodr format
-- Research paper implementation on intersection management (except I implemented it using plexe instead of specific communication)
+- customly built maps for carla and sumo in osm and xodr format.
+- Intersection management using plexe.
 
 ## Execution
 
@@ -26,7 +26,7 @@ This repo includes
   python3 config.py -x <filename>
   ```
 
-### research paper implementation
+### Intersection simulation and Management
  ```
  cd intersection
 ```
